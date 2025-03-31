@@ -1,0 +1,46 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Pyenv
+.python-version
+
+# Ruff cache
+.ruff_cache/
+
+# VS Code settings (keep settings.json, ignore other clutter)
+.vscode/*
+!.vscode/settings.json
+
+# macOS noise
+.DS_Store
+
+# Logs
+*.log
+
+# Testing / coverage
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+coverage.xml
+*.lcov
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# dotenv
+.env
+.env.*
+
+# Crawled data (optional—if you store scrape outputs locally)
+data/
+output/
