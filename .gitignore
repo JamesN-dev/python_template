@@ -8,3 +8,16 @@ wheels/
 
 # Virtual environments
 .venv
+.env
+
+.vscode/
+
+#macOS
+.DS_Store
+
+# Frontend
+node_modules/
+
+# Backend
+backend/db
+PLANS.md
